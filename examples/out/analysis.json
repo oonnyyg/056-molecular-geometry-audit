@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "units": {
+    "length": "angstrom",
+    "angle": "degree",
+    "input_coordinates": "angstrom"
+  },
+  "geometry_conventions": {
+    "bond_length": "Euclidean distance between bonded atoms",
+    "bond_angle": "angle between outward vectors from the centre atom, 0..180 degrees",
+    "torsion": "unsigned angle between the a-b-c and b-c-d plane normals of the three-bond chain a-b-c-d, 0..180 degrees; the reversed chain is reported once",
+    "radius_of_gyration": "mass-weighted RMS distance to the mass centre",
+    "distance_difference_rms": "RMS over all unordered atom pairs of the difference between within-conformer and reference pairwise distances; invariant to translation and rotation; not a chirality test or an energy score"
+  },
+  "reference_conformer": "ref",
+  "conformer_order": [
+    "coincident",
+    "linear",
+    "ref",
+    "rotated"
+  ],
+  "conformers": {
+    "coincident": {
+      "center_of_mass_angstrom": [
+        0.0,
+        0.7,
+        0.4
+      ],
+      "radius_of_gyration_angstrom": 0.6708203932499369,
+      "measurement_counts": {
+        "bond_length": {
+          "valid": 3,
+          "undefined": 0
+        },
+        "bond_angle": {
+          "valid": 1,
+          "undefined": 1
+        },
+        "torsion": {
+          "valid": 0,
+          "undefined": 1
+        },
+        "total": {
+          "valid": 4,
+          "undefined": 2
+        }
+      },
+      "bond_length_angstrom": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.6666666666666666
+      },
+      "bond_angle_degrees": {
+        "min": 90.0,
+        "max": 90.0,
+        "mean": 90.0
+      },
+      "distance_difference_rms_angstrom": 0.4605419614771734,
+      "max_distance_difference": {
+        "pair": [
+          "A1",
+          "A2"
+        ],
+        "absolute_difference_angstrom": 1.0,
+        "reason": null
+      }
+    },
+    "linear": {
+      "center_of_mass_angstrom": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "radius_of_gyration_angstrom": 1.0,
+      "measurement_counts": {
+        "bond_length": {
+          "valid": 3,
+          "undefined": 0
+        },
+        "bond_angle": {
+          "valid": 2,
+          "undefined": 0
+        },
+        "torsion": {
+          "valid": 0,
+          "undefined": 1
+        },
+        "total": {
+          "valid": 5,
+          "undefined": 1
+        }
+      },
+      "bond_length_angstrom": {
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0
+      },
+      "bond_angle_degrees": {
+        "min": 180.0,
+        "max": 180.0,
+        "mean": 180.0
+      },
+      "distance_difference_rms_angstrom": 0.6183292887022221,
+      "max_distance_difference": {
+        "pair": [
+          "A1",
+          "A4"
+        ],
+        "absolute_difference_angstrom": 1.2679491924311228,
+        "reason": null
+      }
+    },
+    "ref": {
+      "center_of_mass_angstrom": [
+        0.9,
+        0.7,
+        0.4
+      ],
+      "radius_of_gyration_angstrom": 0.7348469228349535,
+      "measurement_counts": {
+        "bond_length": {
+          "valid": 3,
+          "undefined": 0
+        },
+        "bond_angle": {
+          "valid": 2,
+          "undefined": 0
+        },
+        "torsion": {
+          "valid": 1,
+          "undefined": 0
+        },
+        "total": {
+          "valid": 6,
+          "undefined": 0
+        }
+      },
+      "bond_length_angstrom": {
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0
+      },
+      "bond_angle_degrees": {
+        "min": 90.0,
+        "max": 90.0,
+        "mean": 90.0
+      },
+      "distance_difference_rms_angstrom": 0.0,
+      "max_distance_difference": {
+        "pair": [
+          "A1",
+          "A2"
+        ],
+        "absolute_difference_angstrom": 0.0,
+        "reason": null
+      }
+    },
+    "rotated": {
+      "center_of_mass_angstrom": [
+        -0.1,
+        -0.3,
+        -0.6
+      ],
+      "radius_of_gyration_angstrom": 0.7348469228349533,
+      "measurement_counts": {
+        "bond_length": {
+          "valid": 3,
+          "undefined": 0
+        },
+        "bond_angle": {
+          "valid": 2,
+          "undefined": 0
+        },
+        "torsion": {
+          "valid": 1,
+          "undefined": 0
+        },
+        "total": {
+          "valid": 6,
+          "undefined": 0
+        }
+      },
+      "bond_length_angstrom": {
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0
+      },
+      "bond_angle_degrees": {
+        "min": 90.0,
+        "max": 90.0,
+        "mean": 90.0
+      },
+      "distance_difference_rms_angstrom": 0.0,
+      "max_distance_difference": {
+        "pair": [
+          "A1",
+          "A2"
+        ],
+        "absolute_difference_angstrom": 0.0,
+        "reason": null
+      }
+    }
+  }
+}

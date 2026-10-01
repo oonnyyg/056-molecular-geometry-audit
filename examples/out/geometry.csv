@@ -1,0 +1,25 @@
+conformer,measurement,atoms,value,unit,undefined_reason
+coincident,bond_length,"[""A1"", ""A2""]",0.0,angstrom,
+coincident,bond_angle,"[""A1"", ""A2"", ""A3""]",,degree,zero-length bond A2-A1
+coincident,torsion,"[""A1"", ""A2"", ""A3"", ""A4""]",,degree,zero-length bond A1-A2
+coincident,bond_length,"[""A2"", ""A3""]",1.0,angstrom,
+coincident,bond_angle,"[""A2"", ""A3"", ""A4""]",90.0,degree,
+coincident,bond_length,"[""A3"", ""A4""]",1.0,angstrom,
+linear,bond_length,"[""A1"", ""A2""]",1.0,angstrom,
+linear,bond_angle,"[""A1"", ""A2"", ""A3""]",180.0,degree,
+linear,torsion,"[""A1"", ""A2"", ""A3"", ""A4""]",,degree,atoms A1-A2-A3 are collinear
+linear,bond_length,"[""A2"", ""A3""]",1.0,angstrom,
+linear,bond_angle,"[""A2"", ""A3"", ""A4""]",180.0,degree,
+linear,bond_length,"[""A3"", ""A4""]",1.0,angstrom,
+ref,bond_length,"[""A1"", ""A2""]",1.0,angstrom,
+ref,bond_angle,"[""A1"", ""A2"", ""A3""]",90.0,degree,
+ref,torsion,"[""A1"", ""A2"", ""A3"", ""A4""]",90.0,degree,
+ref,bond_length,"[""A2"", ""A3""]",1.0,angstrom,
+ref,bond_angle,"[""A2"", ""A3"", ""A4""]",90.0,degree,
+ref,bond_length,"[""A3"", ""A4""]",1.0,angstrom,
+rotated,bond_length,"[""A1"", ""A2""]",1.0,angstrom,
+rotated,bond_angle,"[""A1"", ""A2"", ""A3""]",90.0,degree,
+rotated,torsion,"[""A1"", ""A2"", ""A3"", ""A4""]",90.0,degree,
+rotated,bond_length,"[""A2"", ""A3""]",1.0,angstrom,
+rotated,bond_angle,"[""A2"", ""A3"", ""A4""]",90.0,degree,
+rotated,bond_length,"[""A3"", ""A4""]",1.0,angstrom,
