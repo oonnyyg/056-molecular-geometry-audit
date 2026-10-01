@@ -1,0 +1,13 @@
+conformer,atom,x,y,z
+linear,C1,0.0,0.0,0.0
+linear,C2,1.5,0.0,0.0
+linear,C3,3.0,0.0,0.0
+linear,O1,4.2,0.0,0.0
+overlap,C1,0.0,0.0,0.0
+overlap,C2,1.5,0.0,0.0
+overlap,C3,1.5,0.0,0.0
+overlap,O1,2.7,0.0,0.0
+rotated,C1,1.0,2.0,3.0
+rotated,C2,1.0,3.5,3.0
+rotated,C3,1.0,5.0,3.0
+rotated,O1,1.0,6.2,3.0
